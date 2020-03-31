@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE Login[
+
+<!ELEMENT Login (user*)>
+
+<!ELEMENT person ((email|username), password)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT username (#PCDATA)>
+<!ELEMENT password (#PCDATA)>
+]>
+
+<Login>
+    <user>
+        <email>mzeerak.bscs18seecs</email>
+        <username>admin</username>
+        <password>admin123</password>
+    </user>
+    <user>
+        <email>mzeerak.bscs18seecs</email>
+        <username>admin2</username>
+        <password>admin1234</password>
+    </user>
+    <user>
+        <email>mzeerak.bscs18seecs</email>
+        <username>admin3</username>
+        <password>admin12345</password>
+    </user>
+</Login>

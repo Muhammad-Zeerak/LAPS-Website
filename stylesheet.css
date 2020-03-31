@@ -1,0 +1,322 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    background-color: #383838;
+}
+.ab:hover {
+    transform: scale(1.2);
+}
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+}
+header {
+    background-color: #383838;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 200;
+    font-size: large;
+    padding-left: 37%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+footer {
+    width: 91%;
+    color: #BEBEBE;
+    font-family: 'Ubuntu', sans-serif;
+    padding-left: 6.7%;
+    padding-top: 2%;
+}
+footer div{
+    float: left;
+}
+.head {
+    border-bottom: 2px solid #BEBEBE;
+    padding-bottom: 5px;
+    display: inline-block;
+    border-radius: 7px;
+}
+.abc{
+    list-style-type: none;
+}
+.abc li {
+    padding-top: 30px;
+    border-bottom: 2px solid #808080;
+    padding-bottom: 20px;
+}
+a {
+    text-decoration: none;
+    color: #BEBEBE;
+}
+.navBar {
+    font-family: 'Ubuntu', sans-serif;
+    width: 100%;
+    height: 125px;
+    background-image: linear-gradient(-225deg, #5271C4 0%, #B19FFF 48%, #ECA1FE 100%);
+    z-index: 1;
+    position: sticky;
+    top: 0;
+}
+.logo {
+    float: left;
+    width: 30%;
+    font-family: 'Ubuntu', sans-serif;
+}
+.navBarLinks {
+    float: right;
+    width: 70%;
+    padding-top: 50px;
+}
+.dropbtn {
+    background-color: transparent;
+    color: black;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: x-large;
+    font-weight: 500;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    padding-left: 60px;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-image: linear-gradient(-225deg, #B6CEE8 0%, #F578DC 100%);
+    min-width: 300px;
+    border-radius: 10px;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-bottom: 0.5px solid #588BAE;
+    border-radius: 10px;
+}
+.dropdown-content a:hover {
+    color: lightcyan;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    color: lightcyan;
+}
+.simple-ss {
+    width:100%;
+    height:600px;
+    background-color: #f1f1f1;
+    margin:auto;
+}
+.items {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #f1f1f1;
+    position: relative;
+    height: 300px;
+}
+.news{
+    width: 95%;
+    float:left;
+    position:relative;
+    left: 60px;
+}
+.news1{
+    font-family: 'Ubuntu', sans-serif;
+    width: 20%;
+    float:left;
+    padding-top: 35px;
+    margin-left:40px;
+}
+a:hover {
+    color:white;
+}
+.contact {
+    background-color: #f1f1f1;
+}
+.info {
+    background-color: #f1f1f1;
+}
+.internalInfo {
+    text-align: left;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 37%;
+}
+marquee {
+    color: whitesmoke;
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 10px;
+    font-size: x-large;
+}
+
+/*Grid View start*/
+* {
+    box-sizing: border-box;
+}
+
+[class*="col-"] {
+    float: left;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+/* For Mobile Phones */
+[class*="col-"] {
+    width: 100%;
+}
+
+/* For Tablets */
+@media only screen and (min-width: 600px) {
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+}
+
+/* For Desktop: */
+@media only screen and (min-width: 768px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+/*Carousal Start*/
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+  }
+  
+.mySlides {
+      display: none;
+}
+  
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+  
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+  
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+  
+.active, .dot:hover {
+    background-color: #717171;
+}
+  
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+  
+@-webkit-keyframes fade {
+    from {display: block;} 
+    to {margin: 0;}
+}
+  
+@keyframes fade {
+   from {opacity: .4} 
+    to {opacity: 1}
+}
+
+@media only screen and (max-width: 768px){ /*For Header*/
+    header{
+        padding-left: 1%;
+        text-align: left;
+    }
+}
+@media only screen and (max-width: 400px) { /*For Header*/
+    header{
+        padding-left: 0%;
+        text-align: left;
+        font-size: small;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .abcd {
+        display: none;
+    }
+    marquee {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 650px) { 
+    .items h2 {
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 828px) { 
+    .b {
+        display: none;
+    }
+    .x {
+        width: 100%;
+    }
+    .x iframe {
+        float: none;
+        width: 200%;
+    }
+}
+
+@media only screen and (max-width: 1000px) { 
+    .m {
+        display: none;
+    }
+}
+@media only screen and (max-width: 665px) {
+    footer {
+        width: 100%;
+    }
+    .q {
+        width: 22%;
+    }
+    .navBar {
+        display: none;
+    }
+}
